@@ -66,7 +66,6 @@ def setup_trainer(model_name, train_dataset, eval_dataset, label_column, text_co
     return trainer
 
 if __name__ == "__main__":
-    # File paths
     dataset_path = "trainingset-ideology-power/orientation/orientation-tr-train.tsv"
     country_code = "tr"
     text_column = "text"
